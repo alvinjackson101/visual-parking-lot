@@ -1,0 +1,7 @@
+.parkinglot{
+    background-image:  url('parkinglot.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:800px;
+    height:800px;
+}
