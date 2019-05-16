@@ -79,12 +79,15 @@ function createParkingLot(opening, numOfSpaces){
 }
 
 createParkingLot('left', 9)
-// createParkingLot('right', 8)
-// createParkingLot('top', 4)
-// createParkingLot('middle', 5)
+createParkingLot('right', 8)
+createParkingLot('top', 4)
+createParkingLot('middle', 5)
 createParkingLot('bottom', 5)
 
 
-
 new Intersection(410, 190, ['north', 'south', 'east']).paint()
+new Intersection(190, 190, ['north', 'south', 'east']).paint()
 new Road(10, 190, 230, 230).paint()
+new Intersection(410, 600, ['north', 'south', 'west']).paint()
+new Intersection(190, 600, ['north', 'south', 'west']).paint()
+new Road(10, 610, 230, 230).paint()
